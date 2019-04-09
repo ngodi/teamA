@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#header {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	padding: 2rem;
+	background: linear-gradient(to right , #ffff00, #333300);
+
+
+}
+
+#header ul{
+
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ margin-left: 15rem;
+
+ 
+}
+
+#header ul li {
+	margin-left: 10rem;
+}
+
+#header ul li a {
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+}
