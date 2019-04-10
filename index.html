@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <head>
 	<title>Product Landing Page</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 <body>
 <header id="header">
 
-	<div id="logo"><img src="images/original_trombones.png" width="200px" height="30px"></div>
-	<div id="nav">
+	<img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" width="200px" height="30px">
+	<nav id="nav-bar">
 		<ul>
-			<li><a href="#features">Features</a></li>
-			<li><a href="#working">How It Works</a></li>
-			<li><a href="#pricing">Pricing</a></li>
+			<li><a class="nav-link" href="#features">Features</a></li>
+			<li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+			<li><a class="nav-link" href="#pricing">Pricing</a></li>
 		</ul>
-	</div>
+	</nav>
 	
 </header>
 
+<section id="main">
+	<strong>Handcrafted, home-made masterpieces</strong>
+	<form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
+		<input size=30  type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+		<input type="submit" name="submit" id="submit" value="GET STARTED">
+	</form>
+
+
+
+</section>
+
+
+
+  <section id="features">
+   
+    <div class="item_list">
+	<div class="icon">
+		<i class="fa fa-fire fa-5x" aria-hidden="true"></i>
+	</div>
+	
+	<div class="info">
+		<strong>Premium Materials</strong>
+		<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+	</div> 	
+
+
+</div>
+
+<div class="item_list">
+	<div class="icon">
+		<i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+	</div>
+	
+	<div class="info">
+		<strong>Fast Shipping</strong>
+		<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+	</div> 	
+
+
+</div>
+
+
+<div class="item_list">
+	<div class="icon">
+		<i class="fa fa-battery-full fa-3x" aria-hidden="true"></i>
+	</div>
+	
+	<div class="info">
+		<strong>Quality Assurance</strong>
+		<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+	</div> 	
+
+
+  </div>
+</section>
+
+
+
+<section id="how-it-works">
+    <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+
+<section id="pricing">
+	
+</section>
+
+<footer id="footer">
+	
+</footer>
+
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 </html>
